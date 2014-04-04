@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Export-Package: name.fraser.neil.plaintext
+Embed-Directory: jars
+Bundle-ClassPath: jars/diff_match_patch-current.jar
+Built-By: rafael
+Tool: Bnd-0.0.357
+Bundle-Name: diff_match_patch
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_38
+Bundle-Version: 1.120.1.SNAPSHOT
+Bnd-LastModified: 1381432660596
+Embed-Transitive: true
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.abstratt.wrapped.diff_match_patch
+Import-Package: name.fraser.neil.plaintext
+Embed-Dependency: diff_match_patch
+
