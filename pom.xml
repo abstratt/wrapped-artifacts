@@ -26,25 +26,16 @@
 	</repositories>
 
   <modules>
-    <module>diff_match_patch</module>
     <module>postgresql</module>
   </modules>
 
   <dependencyManagement>
     <dependencies>
-
-      <dependency>
-        <groupId>diff_match_patch</groupId>
-        <artifactId>diff_match_patch</artifactId>
-        <version>current</version>
-      </dependency>
-
       <dependency>
         <groupId>postgresql</groupId>
         <artifactId>postgresql</artifactId>
         <version>9.1-901.jdbc3</version>
       </dependency>
-
     </dependencies>
   </dependencyManagement>
 
