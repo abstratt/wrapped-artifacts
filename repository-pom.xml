@@ -13,6 +13,18 @@
 		<version>1.5</version>
 	</parent>
 	
+	<repositories>
+		<repository>
+			<id>Abstratt-OSS</id>
+			<name>Abstratt OSS Repo</name>
+			<url>http://repository-textuml.forge.cloudbees.com/snapshot/</url>
+			<layout>default</layout>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	
 	<!-- 3rd-party POM-first dependencies for modules -->
 	<dependencies>
 		<dependency>
