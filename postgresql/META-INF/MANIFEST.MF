@@ -3,7 +3,7 @@ Bundle-SymbolicName: com.abstratt.wrapped.postgresql
 Embed-Directory: jars
 Built-By: rafael
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1433021331875
+Bnd-LastModified: 1434223933213
 Embed-Dependency: postgresql
 Import-Package: javax.naming,javax.naming.spi,javax.net,javax.net.ssl,
  javax.security.auth,javax.security.auth.callback,javax.security.auth.
@@ -25,7 +25,7 @@ Export-Package: org.postgresql.util,org.postgresql.jdbc2.optional,org.
  gss,org.postgresql.geometric,org.postgresql.fastpath,org.postgresql.x
  a
 Bundle-Name: postgresql
-Bundle-Version: 2.0.150605.SNAPSHOT
+Bundle-Version: 3.0.0
 Bundle-ClassPath: jars/postgresql-9.1-901.jdbc3.jar
 Embed-Transitive: true
 Created-By: Apache Maven Bundle Plugin
