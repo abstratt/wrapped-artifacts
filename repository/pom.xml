@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.abstratt.wrapped</groupId>
+	<groupId>com.abstratt.mdd</groupId>
 	<artifactId>com.abstratt.wrapped.repository</artifactId>
 	<version>3.0</version>
 	<packaging>eclipse-repository</packaging>
@@ -13,18 +13,6 @@
 		<version>1.6</version>
 	</parent>
 	
-	<repositories>
-		<repository>
-			<id>Abstratt-OSS</id>
-			<name>Abstratt OSS Repo</name>
-			<url>http://repository-textuml.forge.cloudbees.com/snapshot/</url>
-			<layout>default</layout>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-	
 	<!-- 3rd-party POM-first dependencies for modules -->
 	<dependencies>
 		<dependency>
@@ -32,11 +20,6 @@
 			<artifactId>postgresql</artifactId>
 			<version>3.0</version>
 		</dependency>
-		<dependency>
-			<groupId>com.abstratt.wrapped</groupId>
-			<artifactId>schemacrawler</artifactId>
-			<version>3.0</version>
-		</dependency>		
 	</dependencies>	
 	
 		<build>
