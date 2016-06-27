@@ -17,7 +17,6 @@
 		<dependency>
 			<groupId>us.fatehi</groupId>
 			<artifactId>schemacrawler</artifactId>
-			<version>14.08.06</version>
 		</dependency>
 	</dependencies>
 
@@ -30,16 +29,18 @@
 				<configuration>
 					<instructions>
 						<Embed-Dependency>
-							*;scope=compile|runtime
+							*;scope=compile
 						</Embed-Dependency>
 						<_exportcontents>
 							schemacrawler.*
 						</_exportcontents>
+						<Import-Package>!com.thoughtworks.xstream</Import-Package>
 						<Bundle-ClassPath>{maven-dependencies}</Bundle-ClassPath>
-						<Embed-Transitive>true</Embed-Transitive>
+						<Embed-Transitive>false</Embed-Transitive>
 						<Embed-Directory>jars</Embed-Directory>
 						<_failok>true</_failok>
 						<_nouses>true</_nouses>
+						<excludeDependencies>true</excludeDependencies>
 					</instructions>
 				</configuration>
 			</plugin>
