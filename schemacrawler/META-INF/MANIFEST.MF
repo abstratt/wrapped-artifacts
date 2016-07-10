@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1466989569806
+Bnd-LastModified: 1468160426762
 Build-Jdk: 1.8.0_60
 Built-By: rafael
 Bundle-ClassPath: jars/schemacrawler-14.08.06.jar
@@ -33,5 +33,6 @@ Export-Package: schemacrawler;version="3.0.0",schemacrawler.crawl;versio
  chemacrawler.tools.text.utility.html;version="3.0.0",schemacrawler.tool
  s.text.utility.org.json;version="3.0.0",schemacrawler.tools.traversal;v
  ersion="3.0.0",schemacrawler.utility;version="3.0.0"
+Require-Bundle: com.thoughtworks.xstream
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-3.0.0.201509101326
