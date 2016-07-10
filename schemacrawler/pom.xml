@@ -34,8 +34,6 @@
 						<_exportcontents>
 							schemacrawler.*
 						</_exportcontents>
-                        <Require-Bundle>com.thoughtworks.xstream</Require-Bundle>
-						<Import-Package>!com.thoughtworks.xstream</Import-Package>
 						<Bundle-ClassPath>{maven-dependencies}</Bundle-ClassPath>
 						<Embed-Transitive>false</Embed-Transitive>
 						<Embed-Directory>jars</Embed-Directory>
