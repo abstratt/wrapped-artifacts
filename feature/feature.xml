@@ -21,16 +21,22 @@
       <update label="%updateSiteName" url="http://abstratt.com/update/"/>
    </url>
 
+   <requires>
+      <import plugin="com.thoughtworks.xstream"/>
+   </requires>
+
    <plugin
          id="com.abstratt.wrapped.postgresql"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="com.abstratt.wrapped.schemacrawler"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
 </feature>

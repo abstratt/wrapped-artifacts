@@ -12,7 +12,15 @@
 		<groupId>com.abstratt</groupId>
 		<version>1.6</version>
 	</parent>
-	
+
+	<repositories>
+		<repository>
+			<id>eclipse-indigo</id>
+			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
+
 	<!-- 3rd-party POM-first dependencies for modules -->
 	<dependencies>
 		<dependency>
@@ -20,24 +28,29 @@
 			<artifactId>postgresql</artifactId>
 			<version>3.0</version>
 		</dependency>
-	</dependencies>	
-	
-		<build>
+		<dependency>
+			<groupId>com.abstratt.wrapped</groupId>
+			<artifactId>schemacrawler</artifactId>
+			<version>3.0</version>
+		</dependency>
+	</dependencies>
+
+	<build>
 		<plugins>
 		</plugins>
 		<pluginManagement>
-		    <plugins>
-                <plugin>
-                    <groupId>org.eclipse.tycho</groupId>
-                    <artifactId>tycho-compiler-plugin</artifactId>
-                    <version>${tycho-version}</version>
-                    <configuration>
-                        <source>1.8</source>
-                        <target>1.8</target>
-                    </configuration>
-                </plugin>		    
-		    </plugins>
-	    </pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.eclipse.tycho</groupId>
+					<artifactId>tycho-compiler-plugin</artifactId>
+					<version>${tycho-version}</version>
+					<configuration>
+						<source>1.8</source>
+						<target>1.8</target>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
-	
+
 </project>
