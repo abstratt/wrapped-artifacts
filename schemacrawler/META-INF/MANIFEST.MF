@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1468465118365
+Bnd-LastModified: 1469227582472
 Build-Jdk: 1.8.0_60
 Built-By: rafael
 Bundle-ClassPath: jars/schemacrawler-14.08.06.jar
@@ -36,13 +36,7 @@ Export-Package: schemacrawler;version="3.0.0",schemacrawler.crawl;versio
 Import-Package: com.thoughtworks.xstream,com.thoughtworks.xstream.conver
  ters,com.thoughtworks.xstream.converters.basic,com.thoughtworks.xstream
  .converters.collections,com.thoughtworks.xstream.io,com.thoughtworks.xs
- tream.mapper,freemarker.cache,freemarker.log,freemarker.template,javax.
- script,javax.sql,org.apache.commons.logging.impl,org.apache.velocity,or
- g.apache.velocity.app,org.apache.velocity.context,org.apache.velocity.e
- xception,org.apache.velocity.runtime.log,org.apache.velocity.runtime.re
- source.loader,org.springframework.context,org.springframework.context.s
- upport,org.thymeleaf,org.thymeleaf.context,org.thymeleaf.templateresolv
- er,schemacrawler.tools.text.utility.org.json,schemacrawler.tools.traver
- sal
+ tream.mapper,javax.script,javax.sql,org.apache.commons.logging.impl,sch
+ emacrawler.tools.text.utility.org.json,schemacrawler.tools.traversal
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-3.0.0.201509101326

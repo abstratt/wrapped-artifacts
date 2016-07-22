@@ -34,6 +34,7 @@
 						<_exportcontents>
 							schemacrawler.*
 						</_exportcontents>
+                                                <Import-Package>!org.apache.velocity.*,!org.thymeleaf.*,!freemarker.*,!org.springframework.*,*</Import-Package>
 						<Bundle-ClassPath>{maven-dependencies}</Bundle-ClassPath>
 						<Embed-Transitive>false</Embed-Transitive>
 						<Embed-Directory>jars</Embed-Directory>
