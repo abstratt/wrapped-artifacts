@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.abstratt.mdd</groupId>
+	<groupId>com.abstratt.wrapped</groupId>
 	<artifactId>com.abstratt.wrapped.repository</artifactId>
 	<version>3.0</version>
 	<packaging>eclipse-repository</packaging>
@@ -12,7 +12,7 @@
 		<groupId>com.abstratt</groupId>
 		<version>1.6</version>
 	</parent>
-
+	
 	<repositories>
 		<repository>
 			<id>eclipse-indigo</id>
@@ -37,6 +37,22 @@
 
 	<build>
 		<plugins>
+<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<target>
+						<artifact>
+							<groupId>${project.groupId}</groupId>
+							<artifactId>com.abstratt.wrapped.dependencies</artifactId>
+							<version>${project.version}</version>
+							<classifier>dependencies</classifier>
+						</artifact>
+					</target>
+					<resolver>p2</resolver>
+				</configuration>
+			</plugin>
 		</plugins>
 		<pluginManagement>
 			<plugins>

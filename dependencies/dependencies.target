@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.6"?>
+
+<target name="Wrapped Plugins Dependencies" sequenceNumber="4">
+	<locations>
+
+		<location includeAllPlatforms="false" includeMode="planner"
+			includeSource="false" type="InstallableUnit">
+			<unit id="org.eclipse.osgi" version="0.0.0" />
+			<repository location="http://download.eclipse.org/releases/mars/201602261000/" />
+		</location>
+
+
+		<location includeAllPlatforms="false" includeMode="planner"
+			includeSource="false" type="InstallableUnit">
+            <unit id="com.thoughtworks.xstream" version="0.0.0" />
+			<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20150519210750/repository/" />
+		</location>
+				
+	</locations>
+</target>
