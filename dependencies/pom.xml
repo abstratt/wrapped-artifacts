@@ -11,9 +11,10 @@
 	<version>3.0</version>
 
 	<parent>
-		<artifactId>master</artifactId>
-		<groupId>com.abstratt</groupId>
-		<version>1.6</version>
+		<artifactId>tycho-parent</artifactId>
+    	<groupId>com.abstratt.wrapped</groupId>
+    	<version>3.0</version>
+		<relativePath>../tycho-pom.xml</relativePath>
 	</parent>
 
 	<build>

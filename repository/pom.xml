@@ -7,19 +7,13 @@
 	<artifactId>com.abstratt.wrapped.repository</artifactId>
 	<version>3.0</version>
 	<packaging>eclipse-repository</packaging>
+
 	<parent>
-		<artifactId>master</artifactId>
-		<groupId>com.abstratt</groupId>
-		<version>1.6</version>
+		<artifactId>tycho-parent</artifactId>
+    	<groupId>com.abstratt.wrapped</groupId>
+    	<version>3.0</version>
+		<relativePath>../tycho-pom.xml</relativePath>
 	</parent>
-	
-	<repositories>
-		<repository>
-			<id>eclipse-indigo</id>
-			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20160520211859/repository/</url>
-			<layout>p2</layout>
-		</repository>
-	</repositories>
 
 	<!-- 3rd-party POM-first dependencies for modules -->
 	<dependencies>
@@ -37,7 +31,14 @@
 
 	<build>
 		<plugins>
-<plugin>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+			</plugin>
+
+            <plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho-version}</version>
@@ -51,22 +52,10 @@
 						</artifact>
 					</target>
 					<resolver>p2</resolver>
+                    <pomDependencies>consider</pomDependencies>
 				</configuration>
 			</plugin>
 		</plugins>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>tycho-compiler-plugin</artifactId>
-					<version>${tycho-version}</version>
-					<configuration>
-						<source>1.8</source>
-						<target>1.8</target>
-					</configuration>
-				</plugin>
-			</plugins>
-		</pluginManagement>
 	</build>
 
 </project>
