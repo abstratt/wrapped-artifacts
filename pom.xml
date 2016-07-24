@@ -42,6 +42,11 @@
 				<artifactId>schemacrawler</artifactId>
 				<version>14.08.06</version>
 			</dependency>
+   <dependency>
+      <groupId>com.thoughtworks.xstream</groupId>
+      <artifactId>xstream</artifactId>
+      <version>1.4.9</version>
+    </dependency>  
 		</dependencies>
 	</dependencyManagement>
 

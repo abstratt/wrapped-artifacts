@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1469230568673
+Bnd-LastModified: 1469327425880
 Build-Jdk: 1.8.0_60
 Built-By: rafael
 Bundle-ClassPath: jars/postgresql-9.1-901.jdbc3.jar

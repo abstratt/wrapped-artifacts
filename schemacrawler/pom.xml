@@ -18,6 +18,10 @@
 			<groupId>us.fatehi</groupId>
 			<artifactId>schemacrawler</artifactId>
 		</dependency>
+   <dependency>
+      <groupId>com.thoughtworks.xstream</groupId>
+      <artifactId>xstream</artifactId>
+    </dependency>  
 	</dependencies>
 
 	<build>
@@ -33,14 +37,14 @@
 						</Embed-Dependency>
 						<_exportcontents>
 							schemacrawler.*
+                            com.thoughtworks.* 
 						</_exportcontents>
-                                                <Import-Package>!org.apache.velocity.*,!org.thymeleaf.*,!freemarker.*,!org.springframework.*,*</Import-Package>
+						<Import-Package>!org.apache.velocity.*,!org.thymeleaf.*,!freemarker.*,!org.springframework.*,*</Import-Package>
 						<Bundle-ClassPath>{maven-dependencies}</Bundle-ClassPath>
-						<Embed-Transitive>false</Embed-Transitive>
+						<Embed-Transitive>true</Embed-Transitive>
 						<Embed-Directory>jars</Embed-Directory>
 						<_failok>true</_failok>
 						<_nouses>true</_nouses>
-						<excludeDependencies>true</excludeDependencies>
 					</instructions>
 				</configuration>
 			</plugin>
