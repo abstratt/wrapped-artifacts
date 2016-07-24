@@ -26,6 +26,11 @@
 <groupId>xmlpull</groupId>
                   <artifactId>xmlpull</artifactId>    
 </dependency>  
+   <dependency>
+
+                  <groupId>xpp3</groupId>
+                  <artifactId>xpp3_min</artifactId>
+</dependency>  
 	</dependencies>
 
 	<build>
