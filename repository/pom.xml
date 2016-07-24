@@ -43,14 +43,6 @@
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
-					<target>
-						<artifact>
-							<groupId>${project.groupId}</groupId>
-							<artifactId>com.abstratt.wrapped.dependencies</artifactId>
-							<version>${project.version}</version>
-							<classifier>dependencies</classifier>
-						</artifact>
-					</target>
 					<resolver>p2</resolver>
                     <pomDependencies>consider</pomDependencies>
 				</configuration>

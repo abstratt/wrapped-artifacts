@@ -39,9 +39,10 @@
 							schemacrawler.*
                             com.thoughtworks.* 
 						</_exportcontents>
-						<Import-Package>!org.apache.velocity.*,!org.thymeleaf.*,!freemarker.*,!org.springframework.*,*</Import-Package>
+						<Import-Package>!*</Import-Package>
+						<Export-Package>*</Export-Package>
 						<Bundle-ClassPath>{maven-dependencies}</Bundle-ClassPath>
-						<Embed-Transitive>true</Embed-Transitive>
+						<Embed-Transitive>false</Embed-Transitive>
 						<Embed-Directory>jars</Embed-Directory>
 						<_failok>true</_failok>
 						<_nouses>true</_nouses>

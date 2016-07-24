@@ -23,7 +23,6 @@
 
 
 	<modules>
-		<module>dependencies</module>
 		<module>repository</module>
 	</modules>
 
