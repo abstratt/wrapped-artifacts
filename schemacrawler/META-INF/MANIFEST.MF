@@ -1,8 +1,9 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1469328524079
+Bnd-LastModified: 1469375910359
 Build-Jdk: 1.8.0_60
 Built-By: rafael
 Bundle-ClassPath: jars/schemacrawler-14.08.06.jar,jars/xstream-1.4.9.jar
+ ,jars/xmlpull-1.1.3.1.jar
 Bundle-ManifestVersion: 2
 Bundle-Name: schemacrawler
 Bundle-SymbolicName: com.abstratt.wrapped.schemacrawler
@@ -13,7 +14,8 @@ Embed-Directory: jars
 Embed-Transitive: false
 Embedded-Artifacts: jars/schemacrawler-14.08.06.jar;g="us.fatehi";a="sch
  emacrawler";v="14.08.06",jars/xstream-1.4.9.jar;g="com.thoughtworks.xst
- ream";a="xstream";v="1.4.9"
+ ream";a="xstream";v="1.4.9",jars/xmlpull-1.1.3.1.jar;g="xmlpull";a="xml
+ pull";v="1.1.3.1"
 Export-Package: com.thoughtworks.xstream;version="1.4.9",com.thoughtwork
  s.xstream.annotations;version="1.4.9",com.thoughtworks.xstream.converte
  rs;version="1.4.9",com.thoughtworks.xstream.converters.basic;version="1

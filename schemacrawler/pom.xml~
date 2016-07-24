@@ -44,7 +44,7 @@
                             com.thoughtworks.* 
 						</_exportcontents>
 						<Import-Package>!*</Import-Package>
-						<Export-Package>!org.xmlpull.*,*</Export-Package>
+						<Export-Package>*</Export-Package>
 						<Bundle-ClassPath>{maven-dependencies}</Bundle-ClassPath>
 						<Embed-Transitive>false</Embed-Transitive>
 						<Embed-Directory>jars</Embed-Directory>
