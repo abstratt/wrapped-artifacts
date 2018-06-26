@@ -37,6 +37,7 @@
 						</Embed-Dependency>
 						<_exportcontents>
 							guru.nidi.graphviz.*
+							com.eclipsesource.*
 						</_exportcontents>
 						<Bundle-ClassPath>{maven-dependencies}</Bundle-ClassPath>
 						<Embed-Transitive>true</Embed-Transitive>

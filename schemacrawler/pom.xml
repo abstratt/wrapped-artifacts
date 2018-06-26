@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
@@ -18,19 +19,19 @@
 			<groupId>us.fatehi</groupId>
 			<artifactId>schemacrawler</artifactId>
 		</dependency>
-   <dependency>
-      <groupId>com.thoughtworks.xstream</groupId>
-      <artifactId>xstream</artifactId>
-    </dependency>  
-   <dependency>
-<groupId>xmlpull</groupId>
-                  <artifactId>xmlpull</artifactId>    
-</dependency>  
-   <dependency>
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>xmlpull</groupId>
+			<artifactId>xmlpull</artifactId>
+		</dependency>
+		<dependency>
 
-                  <groupId>xpp3</groupId>
-                  <artifactId>xpp3_min</artifactId>
-</dependency>  
+			<groupId>xpp3</groupId>
+			<artifactId>xpp3_min</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -46,7 +47,7 @@
 						</Embed-Dependency>
 						<_exportcontents>
 							schemacrawler.*
-                            com.thoughtworks.* 
+							com.thoughtworks.*
 						</_exportcontents>
 						<Import-Package>!*</Import-Package>
 						<Export-Package>!org.xmlpull.*,*</Export-Package>

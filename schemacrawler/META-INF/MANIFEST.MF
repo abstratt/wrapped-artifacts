@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1529967976668
+Bnd-LastModified: 1529971408547
 Build-Jdk: 1.8.0_131
 Built-By: rafael
 Bundle-ClassPath: jars/schemacrawler-14.08.06.jar,jars/xstream-1.4.9.jar

@@ -14,18 +14,6 @@
 		<manifest-location>META-INF</manifest-location>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>diff_match_patch</id>
-			<name>diff_match_patch</name>
-			<url>http://google-diff-match-patch.googlecode.com/svn/trunk/maven/</url>
-			<layout>default</layout>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-
 	<modules>
 		<module>postgresql</module>
 		<module>schemacrawler</module>
