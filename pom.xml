@@ -17,7 +17,6 @@
 	<modules>
 		<module>postgresql</module>
 		<module>schemacrawler</module>
-		<module>graphviz-java</module>
 	</modules>
 
 	<dependencyManagement>
@@ -31,16 +30,6 @@
 				<groupId>us.fatehi</groupId>
 				<artifactId>schemacrawler</artifactId>
 				<version>14.08.06</version>
-			</dependency>
-			<dependency>
-				<groupId>guru.nidi</groupId>
-				<artifactId>graphviz-java</artifactId>
-				<version>0.2.3</version>
-			</dependency>
-			<dependency>
-				<groupId>com.eclipsesource.j2v8</groupId>
-				<artifactId>j2v8_linux_x86_64</artifactId>
-				<version>4.8.0</version>
 			</dependency>
 			<dependency>
 				<groupId>com.thoughtworks.xstream</groupId>
