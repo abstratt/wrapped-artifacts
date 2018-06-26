@@ -33,14 +33,16 @@
 				<configuration>
 					<instructions>
 						<Embed-Dependency>
-							graphviz-java
+							*;scope=compile
 						</Embed-Dependency>
 						<_exportcontents>
 							guru.nidi.graphviz.*
 							com.eclipsesource.*
 						</_exportcontents>
+						<Import-Package>!*</Import-Package>
+						<Export-Package>!com.kitfox.*,!com.eclipsesource.v8.*,*</Export-Package>
 						<Bundle-ClassPath>{maven-dependencies}</Bundle-ClassPath>
-						<Embed-Transitive>true</Embed-Transitive>
+						<Embed-Transitive>false</Embed-Transitive>
 						<Embed-Directory>jars</Embed-Directory>
 						<_failok>true</_failok>
 						<_nouses>true</_nouses>
