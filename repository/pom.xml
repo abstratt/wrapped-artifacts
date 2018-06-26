@@ -5,13 +5,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.abstratt.wrapped</groupId>
 	<artifactId>com.abstratt.wrapped.repository</artifactId>
-	<version>3.0</version>
+	<version>3.1</version>
 	<packaging>eclipse-repository</packaging>
 
 	<parent>
 		<artifactId>tycho-parent</artifactId>
     	<groupId>com.abstratt.wrapped</groupId>
-    	<version>3.0</version>
+    	<version>3.1</version>
 		<relativePath>../tycho-pom.xml</relativePath>
 	</parent>
 
@@ -20,17 +20,17 @@
 		<dependency>
 			<groupId>com.abstratt.wrapped</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>3.0</version>
+			<version>3.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.abstratt.wrapped</groupId>
 			<artifactId>schemacrawler</artifactId>
-			<version>3.0</version>
+			<version>3.1</version>
 		</dependency>
 		<dependency>
 			<groupId>com.abstratt.wrapped</groupId>
 			<artifactId>graphviz-java</artifactId>
-			<version>3.0</version>
+			<version>3.1</version>
 		</dependency>		
 	</dependencies>
 
