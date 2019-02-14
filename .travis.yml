@@ -1,0 +1,14 @@
+language: java
+jdk:
+  - oraclejdk8
+install: 
+    - mvn clean install -Dmaven.test.skip=true
+    - mvn clean install -Dmaven.test.skip=true -f tycho-pom.xml
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
+cache:
+  directories:
+  - $HOME/.m2
