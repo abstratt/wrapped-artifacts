@@ -1,15 +1,16 @@
 language: java
 jdk:
-  - oraclejdk8
-install: 
-  - mvn clean install -Dmaven.test.skip=true
-after_success:
-  - mvn clean deploy --settings deploy.settings.xml -DdeployAtEnd=true -f tycho-pom.xml
+- oraclejdk8
+install:
+- mvn clean install -Dmaven.test.skip=true
+- mvn clean deploy --settings deploy.settings.xml -DdeployAtEnd=true -f tycho-pom.xml
 notifications:
   email:
     on_success: change
     on_failure: change
-
 cache:
   directories:
-  - $HOME/.m2
+  - "$HOME/.m2"
+env:
+  global:
+    secure: ssfgetC+e0PPHxXGgjt15RO9H0I/4/x5TBA+w5+deP2mrKQtLN2D0tXfW8TUs67c9es7anBywEFiDofw3q239VfnMba7PFdnkkuSyzHMo2bdMnbj58LBGGvoySgc4EpjTiXCrYWRuGqXWTDwgudYX+UH2rx/EaUSWbObYwqfK7g=
