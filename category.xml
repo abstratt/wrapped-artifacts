@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <bundle id="com.abstratt.wrapped.postgresql" version="3.2"/>
-   <bundle id="com.abstratt.wrapped.schemacrawler" version="3.2"/>
-   <category-def name="com.abstratt.wrapped.category" label="OSS dependencies wrapped as OSGi bundles for TextUML Toolkit, Cloudfier etc"/>
-</site>
