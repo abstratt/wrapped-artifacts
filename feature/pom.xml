@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.abstratt.wrapped</groupId>
   <artifactId>com.abstratt.wrapped.feature</artifactId>
-  <version>2.1</version>
+  <version>3.3</version>
   <packaging>eclipse-feature</packaging>
 	<parent>
 		<artifactId>parent</artifactId>
 		<groupId>com.abstratt.wrapped</groupId>
-		<version>2.1</version>
+		<version>3.3</version>
 		<relativePath>..</relativePath>
 	</parent>
 </project>
