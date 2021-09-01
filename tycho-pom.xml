@@ -10,8 +10,8 @@
 
 	<parent>
 		<artifactId>master</artifactId>
-		<groupId>com.abstratt</groupId>
-		<version>4.2.1</version>
+		<groupId>com.abstratt.releng</groupId>
+		<version>4.4.0</version>
 	</parent>
 
     <properties>
@@ -25,9 +25,9 @@
 			<layout>p2</layout>
 		</repository>
 		<repository>
-			<id>Abstratt-OSS</id>
+			<id>github</id>
 			<name>Abstratt OSS Repo</name>
-			<url>https://dl.bintray.com/abstratt-oss/abstratt-oss</url>
+			<url>https://maven.pkg.github.com/abstratt/maven-releases/</url>
 			<layout>default</layout>
 			<snapshots>
 				<enabled>true</enabled>
