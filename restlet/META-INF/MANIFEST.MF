@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1634234714649
+Bnd-LastModified: 1634236191604
 Build-Jdk: 11.0.9
 Built-By: rafael
 Bundle-ClassPath: jars/org.restlet-2.4.3.jar,jars/org.restlet.ext.servle
@@ -11,7 +11,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: restlet
 Bundle-SymbolicName: com.abstratt.wrapped.restlet
 Bundle-Vendor: Abstratt Technologies and Contributors
-Bundle-Version: 3.3.0
+Bundle-Version: 5.0.0
 Created-By: Apache Maven Bundle Plugin
 Embed-Dependency: *;scope=compile
 Embed-Directory: jars
@@ -26,33 +26,33 @@ Embedded-Artifacts: jars/org.restlet-2.4.3.jar;g="org.restlet.jee";a="or
  4.3.jar;g="org.restlet.jee";a="org.restlet.ext.jackson";v="2.4.3",jars/
  org.restlet.ext.fileupload-2.4.3.jar;g="org.restlet.jee";a="org.restlet
  .ext.fileupload";v="2.4.3"
-Export-Package: org.restlet;version="3.3.0",org.restlet.data;version="3.
- 3.0",org.restlet.engine;version="3.3.0",org.restlet.engine.adapter;vers
- ion="3.3.0",org.restlet.engine.application;version="3.3.0",org.restlet.
- engine.component;version="3.3.0",org.restlet.engine.connector;version="
- 3.3.0",org.restlet.engine.converter;version="3.3.0",org.restlet.engine.
- header;version="3.3.0",org.restlet.engine.io;version="3.3.0",org.restle
- t.engine.local;version="3.3.0",org.restlet.engine.log;version="3.3.0",o
- rg.restlet.engine.resource;version="3.3.0",org.restlet.engine.security;
- version="3.3.0",org.restlet.engine.ssl;version="3.3.0",org.restlet.engi
- ne.util;version="3.3.0",org.restlet.ext.crypto;version="3.3.0",org.rest
- let.ext.crypto.internal;version="3.3.0",org.restlet.ext.fileupload;vers
- ion="3.3.0",org.restlet.ext.jackson;version="3.3.0",org.restlet.ext.jac
- kson.internal;version="3.3.0",org.restlet.ext.jaxrs;version="3.3.0",org
- .restlet.ext.jaxrs.internal.client;version="3.3.0",org.restlet.ext.jaxr
- s.internal.core;version="3.3.0",org.restlet.ext.jaxrs.internal.exceptio
- ns;version="3.3.0",org.restlet.ext.jaxrs.internal.provider;version="3.3
- .0",org.restlet.ext.jaxrs.internal.resteasy;version="3.3.0",org.restlet
- .ext.jaxrs.internal.spi;version="3.3.0",org.restlet.ext.jaxrs.internal.
- todo;version="3.3.0",org.restlet.ext.jaxrs.internal.util;version="3.3.0
- ",org.restlet.ext.jaxrs.internal.wrappers;version="3.3.0",org.restlet.e
- xt.jaxrs.internal.wrappers.params;version="3.3.0",org.restlet.ext.jaxrs
- .internal.wrappers.provider;version="3.3.0",org.restlet.ext.servlet;ver
- sion="3.3.0",org.restlet.ext.servlet.internal;version="3.3.0",org.restl
- et.ext.xml;version="3.3.0",org.restlet.ext.xml.internal;version="3.3.0"
- ,org.restlet.representation;version="3.3.0",org.restlet.resource;versio
- n="3.3.0",org.restlet.routing;version="3.3.0",org.restlet.security;vers
- ion="3.3.0",org.restlet.service;version="3.3.0",org.restlet.util;versio
- n="3.3.0"
+Export-Package: org.restlet;version="5.0.0",org.restlet.data;version="5.
+ 0.0",org.restlet.engine;version="5.0.0",org.restlet.engine.adapter;vers
+ ion="5.0.0",org.restlet.engine.application;version="5.0.0",org.restlet.
+ engine.component;version="5.0.0",org.restlet.engine.connector;version="
+ 5.0.0",org.restlet.engine.converter;version="5.0.0",org.restlet.engine.
+ header;version="5.0.0",org.restlet.engine.io;version="5.0.0",org.restle
+ t.engine.local;version="5.0.0",org.restlet.engine.log;version="5.0.0",o
+ rg.restlet.engine.resource;version="5.0.0",org.restlet.engine.security;
+ version="5.0.0",org.restlet.engine.ssl;version="5.0.0",org.restlet.engi
+ ne.util;version="5.0.0",org.restlet.ext.crypto;version="5.0.0",org.rest
+ let.ext.crypto.internal;version="5.0.0",org.restlet.ext.fileupload;vers
+ ion="5.0.0",org.restlet.ext.jackson;version="5.0.0",org.restlet.ext.jac
+ kson.internal;version="5.0.0",org.restlet.ext.jaxrs;version="5.0.0",org
+ .restlet.ext.jaxrs.internal.client;version="5.0.0",org.restlet.ext.jaxr
+ s.internal.core;version="5.0.0",org.restlet.ext.jaxrs.internal.exceptio
+ ns;version="5.0.0",org.restlet.ext.jaxrs.internal.provider;version="5.0
+ .0",org.restlet.ext.jaxrs.internal.resteasy;version="5.0.0",org.restlet
+ .ext.jaxrs.internal.spi;version="5.0.0",org.restlet.ext.jaxrs.internal.
+ todo;version="5.0.0",org.restlet.ext.jaxrs.internal.util;version="5.0.0
+ ",org.restlet.ext.jaxrs.internal.wrappers;version="5.0.0",org.restlet.e
+ xt.jaxrs.internal.wrappers.params;version="5.0.0",org.restlet.ext.jaxrs
+ .internal.wrappers.provider;version="5.0.0",org.restlet.ext.servlet;ver
+ sion="5.0.0",org.restlet.ext.servlet.internal;version="5.0.0",org.restl
+ et.ext.xml;version="5.0.0",org.restlet.ext.xml.internal;version="5.0.0"
+ ,org.restlet.representation;version="5.0.0",org.restlet.resource;versio
+ n="5.0.0",org.restlet.routing;version="5.0.0",org.restlet.security;vers
+ ion="5.0.0",org.restlet.service;version="5.0.0",org.restlet.util;versio
+ n="5.0.0"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-3.0.0.201509101326

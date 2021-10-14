@@ -10,7 +10,7 @@
 	<parent>
 		<artifactId>tycho-parent</artifactId>
     	<groupId>com.abstratt.wrapped</groupId>
-    	<version>3.3</version>
+    	<version>5.0.0</version>
 		<relativePath>../tycho-pom.xml</relativePath>
 	</parent>
 
@@ -24,6 +24,11 @@
 		<dependency>
 			<groupId>com.abstratt.wrapped</groupId>
 			<artifactId>schemacrawler</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.abstratt.wrapped</groupId>
+			<artifactId>restlet</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>

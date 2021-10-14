@@ -4,12 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.abstratt.wrapped</groupId>
   <artifactId>com.abstratt.wrapped.feature</artifactId>
-  <version>3.3</version>
   <packaging>eclipse-feature</packaging>
 	<parent>
-		<artifactId>parent</artifactId>
-		<groupId>com.abstratt.wrapped</groupId>
-		<version>3.3</version>
-		<relativePath>..</relativePath>
+		<artifactId>tycho-parent</artifactId>
+    <groupId>com.abstratt.wrapped</groupId>
+    <version>5.0.0</version>
+		<relativePath>../tycho-pom.xml</relativePath>
 	</parent>
 </project>

@@ -2,7 +2,7 @@
 <feature
       id="com.abstratt.wrapped.feature"
       label="%featureName"
-      version="2.1"
+      version="5.0.0"
       provider-name="%providerName">
 
    <description>

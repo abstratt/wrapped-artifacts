@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1634234704748
+Bnd-LastModified: 1634236190919
 Build-Jdk: 11.0.9
 Built-By: rafael
 Bundle-ClassPath: jars/postgresql-9.1-901.jdbc3.jar
@@ -8,25 +8,25 @@ Bundle-ManifestVersion: 2
 Bundle-Name: postgresql
 Bundle-SymbolicName: com.abstratt.wrapped.postgresql
 Bundle-Vendor: Abstratt Technologies and Contributors
-Bundle-Version: 3.3.0
+Bundle-Version: 5.0.0
 Created-By: Apache Maven Bundle Plugin
 Embed-Dependency: postgresql
 Embed-Directory: jars
 Embed-Transitive: true
 Embedded-Artifacts: jars/postgresql-9.1-901.jdbc3.jar;g="postgresql";a="
  postgresql";v="9.1-901.jdbc3"
-Export-Package: org.postgresql;version="3.3.0",org.postgresql.copy;versi
- on="3.3.0",org.postgresql.core;version="3.3.0",org.postgresql.core.type
- s;version="3.3.0",org.postgresql.core.v2;version="3.3.0",org.postgresql
- .core.v3;version="3.3.0",org.postgresql.ds;version="3.3.0",org.postgres
- ql.ds.common;version="3.3.0",org.postgresql.ds.jdbc23;version="3.3.0",o
- rg.postgresql.fastpath;version="3.3.0",org.postgresql.geometric;version
- ="3.3.0",org.postgresql.gss;version="3.3.0",org.postgresql.jdbc2;versio
- n="3.3.0",org.postgresql.jdbc2.optional;version="3.3.0",org.postgresql.
- jdbc3;version="3.3.0",org.postgresql.largeobject;version="3.3.0",org.po
- stgresql.ssl;version="3.3.0",org.postgresql.translation;version="3.3.0"
- ,org.postgresql.util;version="3.3.0",org.postgresql.xa;version="3.3.0",
- org.postgresql.xa.jdbc3;version="3.3.0"
+Export-Package: org.postgresql;version="5.0.0",org.postgresql.copy;versi
+ on="5.0.0",org.postgresql.core;version="5.0.0",org.postgresql.core.type
+ s;version="5.0.0",org.postgresql.core.v2;version="5.0.0",org.postgresql
+ .core.v3;version="5.0.0",org.postgresql.ds;version="5.0.0",org.postgres
+ ql.ds.common;version="5.0.0",org.postgresql.ds.jdbc23;version="5.0.0",o
+ rg.postgresql.fastpath;version="5.0.0",org.postgresql.geometric;version
+ ="5.0.0",org.postgresql.gss;version="5.0.0",org.postgresql.jdbc2;versio
+ n="5.0.0",org.postgresql.jdbc2.optional;version="5.0.0",org.postgresql.
+ jdbc3;version="5.0.0",org.postgresql.largeobject;version="5.0.0",org.po
+ stgresql.ssl;version="5.0.0",org.postgresql.translation;version="5.0.0"
+ ,org.postgresql.util;version="5.0.0",org.postgresql.xa;version="5.0.0",
+ org.postgresql.xa.jdbc3;version="5.0.0"
 Import-Package: javax.naming,javax.naming.spi,javax.net,javax.net.ssl,ja
  vax.security.auth,javax.security.auth.callback,javax.security.auth.logi
  n,javax.sql,javax.transaction.xa,org.ietf.jgss,org.postgresql,org.postg

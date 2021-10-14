@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1634234705002
+Bnd-LastModified: 1634236191258
 Build-Jdk: 11.0.9
 Built-By: rafael
 Bundle-ClassPath: jars/schemacrawler-14.09.01.jar,jars/xstream-1.4.9.jar
@@ -9,7 +9,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: schemacrawler
 Bundle-SymbolicName: com.abstratt.wrapped.schemacrawler
 Bundle-Vendor: Abstratt Technologies and Contributors
-Bundle-Version: 3.3.0
+Bundle-Version: 5.0.0
 Created-By: Apache Maven Bundle Plugin
 Embed-Dependency: *;scope=compile
 Embed-Directory: jars
@@ -27,7 +27,7 @@ Export-Package: com.thoughtworks.xstream;version="1.4.9",com.thoughtwork
  ks.xstream.converters.extended;version="1.4.9",com.thoughtworks.xstream
  .converters.javabean;version="1.4.9",com.thoughtworks.xstream.converter
  s.reflection;version="1.4.9",com.thoughtworks.xstream.core;version="1.4
- .9",com.thoughtworks.xstream.core.util;version="3.3.0",com.thoughtworks
+ .9",com.thoughtworks.xstream.core.util;version="5.0.0",com.thoughtworks
  .xstream.io;version="1.4.9",com.thoughtworks.xstream.io.binary;version=
  "1.4.9",com.thoughtworks.xstream.io.copy;version="1.4.9",com.thoughtwor
  ks.xstream.io.json;version="1.4.9",com.thoughtworks.xstream.io.naming;v
@@ -35,27 +35,27 @@ Export-Package: com.thoughtworks.xstream;version="1.4.9",com.thoughtwork
  ughtworks.xstream.io.xml;version="1.4.9",com.thoughtworks.xstream.io.xm
  l.xppdom;version="1.4.9",com.thoughtworks.xstream.mapper;version="1.4.9
  ",com.thoughtworks.xstream.persistence;version="1.4.9",com.thoughtworks
- .xstream.security;version="1.4.9",help;version="3.3.0",schemacrawler;ve
- rsion="3.3.0",schemacrawler.crawl;version="3.3.0",schemacrawler.filter;
- version="3.3.0",schemacrawler.schema;version="3.3.0",schemacrawler.sche
- macrawler;version="3.3.0",schemacrawler.tools.analysis.associations;ver
- sion="3.3.0",schemacrawler.tools.analysis.counts;version="3.3.0",schema
- crawler.tools.commandline;version="3.3.0",schemacrawler.tools.databasec
- onnector;version="3.3.0",schemacrawler.tools.executable;version="3.3.0"
- ,schemacrawler.tools.integration.embeddedgraph;version="3.3.0",schemacr
- awler.tools.integration.freemarker;version="3.3.0",schemacrawler.tools.
- integration.graph;version="3.3.0",schemacrawler.tools.integration.scrip
- ting;version="3.3.0",schemacrawler.tools.integration.serialization;vers
- ion="3.3.0",schemacrawler.tools.integration.spring;version="3.3.0",sche
- macrawler.tools.integration.thymeleaf;version="3.3.0",schemacrawler.too
- ls.integration.velocity;version="3.3.0",schemacrawler.tools.iosource;ve
- rsion="3.3.0",schemacrawler.tools.options;version="3.3.0",schemacrawler
- .tools.text.base;version="3.3.0",schemacrawler.tools.text.operation;ver
- sion="3.3.0",schemacrawler.tools.text.schema;version="3.3.0",schemacraw
- ler.tools.text.utility;version="3.3.0",schemacrawler.tools.text.utility
- .html;version="3.3.0",schemacrawler.tools.text.utility.org.json;version
- ="3.3.0",schemacrawler.tools.traversal;version="3.3.0",schemacrawler.ut
- ility;version="3.3.0",sf.util;version="3.3.0",sf.util.graph;version="3.
- 3.0",us.fatehi.commandlineparser;version="3.3.0"
+ .xstream.security;version="1.4.9",help;version="5.0.0",schemacrawler;ve
+ rsion="5.0.0",schemacrawler.crawl;version="5.0.0",schemacrawler.filter;
+ version="5.0.0",schemacrawler.schema;version="5.0.0",schemacrawler.sche
+ macrawler;version="5.0.0",schemacrawler.tools.analysis.associations;ver
+ sion="5.0.0",schemacrawler.tools.analysis.counts;version="5.0.0",schema
+ crawler.tools.commandline;version="5.0.0",schemacrawler.tools.databasec
+ onnector;version="5.0.0",schemacrawler.tools.executable;version="5.0.0"
+ ,schemacrawler.tools.integration.embeddedgraph;version="5.0.0",schemacr
+ awler.tools.integration.freemarker;version="5.0.0",schemacrawler.tools.
+ integration.graph;version="5.0.0",schemacrawler.tools.integration.scrip
+ ting;version="5.0.0",schemacrawler.tools.integration.serialization;vers
+ ion="5.0.0",schemacrawler.tools.integration.spring;version="5.0.0",sche
+ macrawler.tools.integration.thymeleaf;version="5.0.0",schemacrawler.too
+ ls.integration.velocity;version="5.0.0",schemacrawler.tools.iosource;ve
+ rsion="5.0.0",schemacrawler.tools.options;version="5.0.0",schemacrawler
+ .tools.text.base;version="5.0.0",schemacrawler.tools.text.operation;ver
+ sion="5.0.0",schemacrawler.tools.text.schema;version="5.0.0",schemacraw
+ ler.tools.text.utility;version="5.0.0",schemacrawler.tools.text.utility
+ .html;version="5.0.0",schemacrawler.tools.text.utility.org.json;version
+ ="5.0.0",schemacrawler.tools.traversal;version="5.0.0",schemacrawler.ut
+ ility;version="5.0.0",sf.util;version="5.0.0",sf.util.graph;version="5.
+ 0.0",us.fatehi.commandlineparser;version="5.0.0"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-3.0.0.201509101326
