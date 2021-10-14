@@ -9,6 +9,7 @@
 	<version>3.3</version>
 	<packaging>pom</packaging>
 
+
 	<parent>
 		<artifactId>master</artifactId>
 		<groupId>com.abstratt.releng</groupId>
@@ -36,6 +37,7 @@
 	<modules>
 		<module>postgresql</module>
 		<module>schemacrawler</module>
+		<module>restlet</module>
 	</modules>
 
 	<dependencyManagement>

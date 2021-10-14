@@ -1,11 +1,13 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1571066567639
-Build-Jdk: 1.8.0_131
+Bnd-LastModified: 1634234704748
+Build-Jdk: 11.0.9
 Built-By: rafael
 Bundle-ClassPath: jars/postgresql-9.1-901.jdbc3.jar
+Bundle-DocURL: https://abstratt.com
 Bundle-ManifestVersion: 2
 Bundle-Name: postgresql
 Bundle-SymbolicName: com.abstratt.wrapped.postgresql
+Bundle-Vendor: Abstratt Technologies and Contributors
 Bundle-Version: 3.3.0
 Created-By: Apache Maven Bundle Plugin
 Embed-Dependency: postgresql
